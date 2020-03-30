@@ -1,6 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
+
+Desarrollo del front para mostrar datos obtenidos desde la api de Canvas LMS.
 
 In the project directory, you can run:
 

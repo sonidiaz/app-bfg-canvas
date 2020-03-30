@@ -18,6 +18,10 @@
 .env.test.local
 .env.production.local
 
+package-lock.json
+
+/src/host_client.js
+/src/Beforget_logo_white2.png
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
