@@ -25,5 +25,3 @@ Es necesario agregar un archivo llamado **config.js** en el directorio `src` ya 
 Una vez realizado esto levantamos el proyecto en modo desarrollo con el siguiente comando.
 
     npm start
-
-`
