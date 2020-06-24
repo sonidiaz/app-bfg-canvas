@@ -48,7 +48,7 @@ const Profile = () => {
     const clienteUser = token.data.user;
     const userData = await axios.post(`${HOST_API}/api/user/profile/`, {
       data:{
-        id: 3 || clienteUser.id,
+        id: clienteUser.id,
         access_token: access_token
       }
     });
@@ -61,7 +61,7 @@ const Profile = () => {
   const getUserCourses = async (token, id) => {
     const userDataCourse = await axios.post(`${HOST_API}/api/user/course/`, {
       data:{
-        id: 3 || id,
+        id: id,
         access_token: token
       }
     });
